@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "title": "Getting Started with Next.js",
+    "content": "Next.js is a powerful React framework that enables you to build production-ready applications with features like server-side rendering, static site generation, and API routes out of the box. In this article, we'll explore the basics of Next.js and how to set up your first project. Next.js provides an excellent developer experience with features like fast refresh, automatic routing, and built-in optimization."
+  },
+  {
+    "id": "2",
+    "title": "Understanding Server-Side Rendering in Next.js",
+    "content": "Server-Side Rendering (SSR) is a technique where the server generates the HTML for a page on each request. This approach offers several benefits including improved SEO, faster initial page loads, and better accessibility. Next.js makes implementing SSR straightforward with the getServerSideProps function, which runs on every request and allows you to fetch data before the page is rendered."
+  },
+  {
+    "id": "3",
+    "title": "Static Site Generation with getStaticProps",
+    "content": "Static Site Generation (SSG) pre-renders pages at build time, creating static HTML files that can be served incredibly fast. Next.js provides getStaticProps for fetching data at build time and getStaticPaths for generating dynamic routes. This combination allows you to create blazing-fast blogs, documentation sites, and e-commerce stores while maintaining excellent SEO."
+  },
+  {
+    "id": "4",
+    "title": "Building APIs with Next.js API Routes",
+    "content": "Next.js API Routes allow you to create serverless API endpoints directly within your Next.js application. Located in the pages/api directory, these routes are server-side only and won't increase your client-side bundle size. You can use them to handle form submissions, interact with databases, integrate with third-party APIs, and much more."
+  },
+  {
+    "id": "5",
+    "title": "Advanced Optimization Techniques in Next.js",
+    "content": "Next.js includes several built-in optimization features to ensure your application performs at its best. The Image component automatically optimizes images, the Font module eliminates layout shift from font loading, and the Script component provides fine-grained control over third-party scripts. Combined with automatic code splitting and prefetching, Next.js applications deliver exceptional user experiences."
+  }
+]
